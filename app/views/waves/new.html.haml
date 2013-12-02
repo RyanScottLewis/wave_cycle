@@ -1,0 +1,11 @@
+.row-fluid
+  %h2 New Wave
+.row-fluid
+  %canvas#waveChart(width="200" height="200")
+.row-fluid
+  %input#waveOffset(type="range" value="0" min="0" max="359")
+.row-fluid
+  %input#waveCode(type="text" style="width: 100%;" value="Math.sin(radians)")
+  #waveEvaluate.btn Evaluate
+  #waveListen.btn.btn-warning Listen
+  #waveDownload.btn.btn-primary Download
